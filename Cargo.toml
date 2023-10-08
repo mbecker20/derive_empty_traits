@@ -1,0 +1,18 @@
+[package]
+name = "derive_empty_traits"
+version = "0.1.0"
+description = "derives an empty trait on structs / enums"
+documentation = "https://docs.rs/derive_empty_traits"
+authors = ["mbecker20 <becker.maxh@gmail.com>"]
+categories = ["rust-patterns"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/mbecker20/derive_empty_traits"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.67"
+quote = "1.0.33"
+syn = "2.0.37"
